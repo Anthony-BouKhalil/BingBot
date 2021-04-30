@@ -1,8 +1,8 @@
 from selenium import webdriver
-from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 import time
 import getpass
+
 
 #Enter Credentials
 print("Enter your your email: ")
