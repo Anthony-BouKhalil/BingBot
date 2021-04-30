@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
@@ -47,16 +41,3 @@ for i in range(0, 50):
     search.send_keys(Keys.RETURN)
     
 driver.quit() 
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
