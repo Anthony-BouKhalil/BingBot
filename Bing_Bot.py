@@ -17,7 +17,7 @@ PATH = "C:\Program Files (x86)\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
  
 #Login
-driver.get("https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1619651017&rver=6.7.6631. 0&wp=MBI_SSL&wreply=https%3a%2f%2fwww.bing.com%2fsecure%2fPassport.aspx%3frequrl%3dhttps%253a%252f%252f www.bing.com%252f%253fFORM%253dZ9FD1%2526wlsso%253d1%2526wlexpsignin%253d1%26sig%3d2F298F20C6EC631032609F07C7466265 &lc=1033&id=264960&CSRFToken=23650bdc-1204-4521-a01e-ceacf97214eb&aadredir=1")
+driver.get("https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1619651017&rver=6.7.6631.0&wp=MBI_SSL&wreply=https%3a%2f%2fwww.bing.com%2fsecure%2fPassport.aspx%3frequrl%3dhttps%253a%252f%252f www.bing.com%252f%253fFORM%253dZ9FD1%2526wlsso%253d1%2526wlexpsignin%253d1%26sig%3d2F298F20C6EC631032609F07C7466265 &lc=1033&id=264960&CSRFToken=23650bdc-1204-4521-a01e-ceacf97214eb&aadredir=1")
 email = driver.find_element_by_id("i0116")
 email.send_keys(usrname)
 email.send_keys(Keys.RETURN)
